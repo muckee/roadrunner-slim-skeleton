@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^7.4 || ^8.1",
         "ext-json": "*",
         "monolog/monolog": "^2.8",
         "nyholm/psr7": "^1.8",
@@ -58,6 +58,8 @@
         }
     },
     "scripts": {
+        "post-install-cmd": "./vendor/bin/rr get-binary",
+        "post-update-cmd": "./vendor/bin/rr get-binary",
         "start": "./rr serve",
         "test": "phpunit"
     }
