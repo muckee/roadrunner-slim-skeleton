@@ -58,8 +58,8 @@
         }
     },
     "scripts": {
-        "post-install-cmd": "./vendor/bin/rr get-binary",
-        "post-update-cmd": "./vendor/bin/rr get-binary",
+        "post-install-cmd": "./vendor/bin/rr get-binary -n",
+        "post-update-cmd": "./vendor/bin/rr get-binary -n",
         "start": "./rr serve",
         "test": "phpunit"
     }
