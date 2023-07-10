@@ -1,11 +1,11 @@
 {
-    "name": "slim/slim-skeleton",
-    "description": "A Slim Framework skeleton application for rapid development",
+    "name": "muckee/roadrunner-slim-skeleton",
+    "description": "A Slim PHP Framework skeleton application which uses RoadRunner as a wrapper",
     "keywords": [
-        "microframework",
         "rest",
-        "router",
-        "psr7"
+        "psr7",
+        "roadrunner",
+        "grpc"
     ],
     "homepage": "http://github.com/slimphp/Slim-Skeleton",
     "license": "MIT",
